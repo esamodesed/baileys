@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "v1.0.5: full WA + Telegram support"
+git branch -M main
+git remote add origin https://github.com/esamodesed/baileys.git
+git push -u origin main --force
