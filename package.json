@@ -1,0 +1,24 @@
+{
+  "name": "@rey2nd/baileys",
+  "version": "1.0.5",
+  "description": "Baileys Wrapper by rey2nd — WhatsApp + Telegram + API",
+  "main": "index.js",
+  "keywords": ["whatsapp", "baileys", "telegram", "rey2nd", "bot"],
+  "author": {
+    "name": "Rey Mahesa",
+    "email": "esamodesed@gmail.com",
+    "url": "https://rey-official.netlify.app"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esamodesed/baileys.git"
+  },
+  "homepage": "https://github.com/esamodesed/baileys#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "baileys": "^6.7.9"
+  }
+}

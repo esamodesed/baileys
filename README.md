@@ -1,6 +1,6 @@
 # @rey2nd/baileys
 
-> Baileys Wrapper by **rey2nd.dev** — WhatsApp + Telegram + API
+> Baileys Wrapper by **rey2nd.dev** — WhatsApp + Telegram Bot + API
 
 ## 📦 Install
 
@@ -25,8 +25,20 @@ const { useMultiFileAuthState } = require('@rey2nd/baileys');
 
 \`\`\`javascript
 const { createTelegramBot } = require('@rey2nd/baileys');
-const bot = createTelegramBot('YOUR_TOKEN');
+const bot = createTelegramBot('YOUR_BOT_TOKEN');
 bot.start();
+\`\`\`
+
+Chat ke bot → /menu
+
+## 🎨 Button Berwarna
+
+\`\`\`javascript
+await bot.sendButton(chatId, 'Pilih:', [
+  [{ text: '🔵 Primary', callback_data: 'btn1', style: 'primary' }],
+  [{ text: '🟢 Success', callback_data: 'btn2', style: 'success' }],
+  [{ text: '🔴 Danger', callback_data: 'btn3', style: 'danger' }]
+]);
 \`\`\`
 
 ## 👤 Author
